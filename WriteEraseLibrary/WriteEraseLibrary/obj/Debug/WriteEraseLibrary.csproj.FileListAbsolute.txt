@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\WriteEraseLibrary\WriteEraseLibrary\bin\Debug\WriteEraseLibrary.dll
+C:\Users\user\source\repos\WriteEraseLibrary\WriteEraseLibrary\bin\Debug\WriteEraseLibrary.pdb
+C:\Users\user\source\repos\WriteEraseLibrary\WriteEraseLibrary\obj\Debug\WriteEraseLibrary.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\WriteEraseLibrary\WriteEraseLibrary\obj\Debug\WriteEraseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WriteEraseLibrary\WriteEraseLibrary\obj\Debug\WriteEraseLibrary.dll
+C:\Users\user\source\repos\WriteEraseLibrary\WriteEraseLibrary\obj\Debug\WriteEraseLibrary.pdb

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\!Downloads\\Telegram Desktop\\WriteErasee\\WriteErasee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|e:\\!downloads\\telegram desktop\\writeerasee\\writeerasee\\writeerasee\\views\\editorder.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\views\\editorder.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditOrder.axaml",
+              "DocumentMoniker": "E:\\!Downloads\\Telegram Desktop\\WriteErasee\\WriteErasee\\WriteErasee\\Views\\EditOrder.axaml",
+              "RelativeDocumentMoniker": "WriteErasee\\Views\\EditOrder.axaml",
+              "ToolTip": "E:\\!Downloads\\Telegram Desktop\\WriteErasee\\WriteErasee\\WriteErasee\\Views\\EditOrder.axaml",
+              "RelativeToolTip": "WriteErasee\\Views\\EditOrder.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T22:04:10.116Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

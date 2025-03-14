@@ -1,0 +1,61 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+               x:DataType="vm:AuthorizationViewModel"
+			 xmlns:vm="using:WriteErasee.ViewModels"
+			 x:Class="WriteErasee.Authorization">
+
+	<UserControl.Styles>
+		<Style Selector="TextBlock">
+			<Setter Property="FontFamily" Value="Comic Sans MS"/>
+		</Style>
+		<Style Selector="Button">
+			<Setter Property="FontFamily" Value="Comic Sans MS"/>
+			<Setter Property="Background" Value="rgb(73, 140, 81)"/>
+			<Setter Property="Foreground" Value="White"/>
+			<Setter Property="FontSize" Value="16"/>
+			<Setter Property="Padding" Value="10,5"/>
+			<Setter Property="BorderBrush" Value="rgb(73, 140, 81)"/>
+			<Setter Property="BorderThickness" Value="1"/>
+		</Style>
+	</UserControl.Styles>
+
+	<Grid Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+		
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+
+		<TextBlock Text="Авторизация" FontSize="24" HorizontalAlignment="Center" Margin="0,20,0,20" />
+
+		<StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+			
+			<TextBlock Text="Логин" FontSize="16" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+			<TextBox Text="{Binding Login, Mode=TwoWay}" Width="300" Height="40" Margin="0,5" FontSize="16" />
+
+			<TextBlock Text="Пароль" FontSize="16" Margin="10,20,0,5" HorizontalAlignment="Center"/>
+			<TextBox Text="{Binding Password, Mode=TwoWay}" Width="300" Height="40" Margin="0,5" FontSize="16" PasswordChar="*"/>
+
+			<StackPanel IsVisible="{Binding IsCaptchaRequired}" Margin="0,20,0,0">
+				<TextBlock Text="Введите символы с картинки" FontSize="16" HorizontalAlignment="Center" Margin="0,10"/>
+
+				<Image Source="{Binding CaptchaImage}" Width="250" Height="100" Margin="0,5,0,5" HorizontalAlignment="Center"/>
+
+				<TextBox Text="{Binding CaptchaInput, Mode=TwoWay}" Width="250" Height="40" Margin="0,5" FontSize="16" HorizontalAlignment="Center"/>
+			</StackPanel>
+
+			<Button Content="Войти" Command="{Binding LoginCommand}" Width="300" Height="50" Margin="0,20,0,5" HorizontalAlignment="Center"/>
+			<Button Content="Войти как гость" Command="{Binding GuestCommand}" Width="300" Height="50" HorizontalAlignment="Center"/>
+		</StackPanel>
+	</Grid>
+</UserControl>

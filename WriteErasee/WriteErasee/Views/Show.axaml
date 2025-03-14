@@ -1,0 +1,153 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             xmlns:vm="using:WriteErasee.ViewModels"
+             xmlns:conv="using:WriteErasee.Converter"
+             x:DataType="vm:ShowViewModel"
+			 x:Class="WriteErasee.Show">
+
+	<UserControl.Resources>
+		<conv:StrikeThroughConverter x:Key="StrikeThroughConverter"/>
+		<conv:DiscountToBackgroundConverter x:Key="DiscountConverter"/>
+		<conv:ImageConverter x:Key="myImageConverter"/>
+	</UserControl.Resources>
+
+	<Grid Background="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<DockPanel Grid.Row="0" HorizontalAlignment="Stretch" Margin="10">
+			<TextBlock Text="{Binding CurrentUserFullName}"
+                       FontSize="16"
+                       FontWeight="Bold"
+                       Foreground="Black"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"
+                       Margin="10,0"/>
+			<TextBlock Text="{Binding ProductList.Count, StringFormat='Записей: {0}'}"
+                       FontSize="14"
+                       FontWeight="Bold"
+                       Foreground="Black"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0"/>
+		</DockPanel>
+
+		<TextBlock Text="Товары"
+                   Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="rgb(73, 140, 81)"
+                   FontFamily="Comic Sans MS"
+                   Margin="20"/>
+
+		<Button Content="Назад"
+                Command="{Binding Exit}"
+                Background="rgb(73, 140, 81)"
+                Foreground="White"
+                HorizontalAlignment="Center"
+                Width="150"
+                Margin="0,60,0,20"
+                FontSize="16"
+                FontWeight="Bold"
+                FontFamily="Comic Sans MS"
+                BorderThickness="0"
+                CornerRadius="10"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"/>
+
+		<StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10">
+			
+			<TextBox Width="300" Margin="0,10"
+                     Watermark="Поиск по наименованию товара"
+                     Text="{Binding SearchQuery}" FontSize="14" FontWeight="Bold"/>
+
+			<ComboBox HorizontalAlignment="Center" Margin="0,10"
+                      ItemsSource="{Binding DiscountRanges}"
+                      SelectedItem="{Binding SelectedDiscountRange}">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding}" />
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+
+			<StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="10">
+				<RadioButton Content="По возрастанию цены"
+                             GroupName="SortGroup"
+                             IsChecked="{Binding IsPriceAscending}"
+                             Command="{Binding SortByPriceAscending}"
+                             Width="250" Margin="0,5"
+                             FontSize="14" FontWeight="Bold"/>
+
+				<RadioButton Content="По убыванию цены"
+                             GroupName="SortGroup"
+                             IsChecked="{Binding IsPriceDescending}"
+                             Command="{Binding SortByPriceDescending}"
+                             Width="250" Margin="0,5"
+                             FontSize="14" FontWeight="Bold" />
+			</StackPanel>
+		</StackPanel>
+
+		<StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="10" Orientation="Horizontal">
+			<Button Content="Посмотреть заказ" IsVisible="{Binding IsVisibleCreateOrder}" Command="{Binding ViewOrder}" Width="200" Margin="0 0 10 0"/>
+			<Button Content="Список заказов" IsVisible="{Binding IsVisibleManager}" Command="{Binding ViewOrders}" Width="200" Margin="0 0 10 0"/>
+			<Button Content="Добавить новый товар" IsVisible="{Binding IsVisibleAdmin}" Command="{Binding AddProduct}" Width="200"/>
+		</StackPanel>
+
+		<ScrollViewer Grid.Row="3" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+			<ListBox ItemsSource="{Binding ProductList}" SelectedItem="{Binding SelectedProduct}"
+					 Background="White" HorizontalAlignment="Stretch" Padding="10" Margin="0,30,0,0">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Border BorderThickness="2" BorderBrush="rgb(73, 140, 81)" CornerRadius="10" Padding="15" Margin="10" Background="{Binding CurrentDiscount, Converter={StaticResource DiscountConverter}}">
+							<Grid RowDefinitions="Auto,Auto">
+								<Grid Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="120"/>
+										<ColumnDefinition Width="*"/>
+										<ColumnDefinition Width="Auto"/>
+									</Grid.ColumnDefinitions>
+									<Image Height="120" Width="120" Source="{Binding Image, Converter={StaticResource myImageConverter}, FallbackValue='avares://WriteErase/Assets/picture.png'}" HorizontalAlignment="Center" Margin="0,10"/>
+
+									<StackPanel Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
+										<TextBlock FontFamily="Comic Sans MS" FontSize="18" FontWeight="Bold" Text="{Binding Name}" Foreground="rgb(73, 140, 81)" Margin="0,5"/>
+										<TextBlock FontFamily="Comic Sans MS" FontSize="14" Text="{Binding Description}" Foreground="rgb(73, 140, 81)" Margin="0,5"/>
+
+										<StackPanel Orientation="Horizontal">
+											<TextBlock FontFamily="Comic Sans MS" FontSize="14" Text="{Binding Cost, StringFormat='Цена: {0}'}" Margin="0,5" Foreground="rgb(73, 140, 81)" TextDecorations="{Binding HasDiscount, Converter={StaticResource StrikeThroughConverter}}"/>
+											<TextBlock FontFamily="Comic Sans MS" FontSize="14" Text="{Binding FinalPrice, StringFormat='{}{0:F2}'}" Foreground="Red" Margin="10,5,0,5" IsVisible="{Binding HasDiscount}"/>
+										</StackPanel>
+
+									</StackPanel>
+
+									<TextBlock Grid.Column="2" FontFamily="Comic Sans MS" FontSize="14" Text="{Binding CurrentDiscount}" Foreground="rgb(118, 227, 131)" FontWeight="Bold" Background="White" Padding="5" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+
+								</Grid>
+								<StackPanel Grid.Row="1" Orientation="Horizontal"
+												IsVisible="{Binding $parent[UserControl].((vm:ShowViewModel)DataContext).IsVisibleAdmin}">
+									<Button Command="{Binding $parent[UserControl].((vm:ShowViewModel)DataContext).Edit}"
+											Content="Редактировать" CommandParameter="{Binding}" Margin="5"/>
+									<Button Command="{Binding $parent[UserControl].((vm:ShowViewModel)DataContext).DeleteProduct}"
+											Content="Удалить" CommandParameter="{Binding}" Margin="5"/>
+								</StackPanel>
+							</Grid>
+						</Border>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+				<ListBox.ContextMenu>
+					<ContextMenu>
+						<MenuItem Header="Добавить к заказу" Command="{Binding AddProductToOrder}"/>
+					</ContextMenu>
+				</ListBox.ContextMenu>
+			</ListBox>
+		</ScrollViewer>
+	</Grid>
+
+</UserControl>

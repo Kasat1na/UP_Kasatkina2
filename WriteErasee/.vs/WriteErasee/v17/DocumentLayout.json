@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\viewmodels\\editorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\viewmodels\\editorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\views\\editorder.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\views\\editorder.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\viewmodels\\editproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\viewmodels\\editproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\views\\editproduct.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\views\\editproduct.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\viewmodels\\listordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\viewmodels\\listordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\views\\listorders.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\views\\listorders.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\viewmodels\\orderuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\viewmodels\\orderuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\views\\orderuser.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\views\\orderuser.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\views\\show.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\views\\show.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\views\\authorization.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\views\\authorization.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|c:\\users\\user\\desktop\\\u0443\u043F_\u043A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\writeerasee\\writeerasee\\models\\_43pkasatkina2upcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347353B7-0D37-494F-A8CB-917B7FE78AD8}|WriteErasee\\WriteErasee.csproj|solutionrelative:writeerasee\\models\\_43pkasatkina2upcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditProduct.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\EditProduct.axaml",
+              "RelativeDocumentMoniker": "WriteErasee\\Views\\EditProduct.axaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\EditProduct.axaml",
+              "RelativeToolTip": "WriteErasee\\Views\\EditProduct.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-14T16:34:01.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListOrders.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\ListOrders.axaml",
+              "RelativeDocumentMoniker": "WriteErasee\\Views\\ListOrders.axaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\ListOrders.axaml",
+              "RelativeToolTip": "WriteErasee\\Views\\ListOrders.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-14T15:58:32.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListOrdersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\ListOrdersViewModel.cs",
+              "RelativeDocumentMoniker": "WriteErasee\\ViewModels\\ListOrdersViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\ListOrdersViewModel.cs",
+              "RelativeToolTip": "WriteErasee\\ViewModels\\ListOrdersViewModel.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAowIMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:58:26.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\EditProductViewModel.cs",
+              "RelativeDocumentMoniker": "WriteErasee\\ViewModels\\EditProductViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\EditProductViewModel.cs",
+              "RelativeToolTip": "WriteErasee\\ViewModels\\EditProductViewModel.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:58:41.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditOrder.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\EditOrder.axaml",
+              "RelativeDocumentMoniker": "WriteErasee\\Views\\EditOrder.axaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\EditOrder.axaml",
+              "RelativeToolTip": "WriteErasee\\Views\\EditOrder.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-13T22:04:10.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\EditOrderViewModel.cs",
+              "RelativeDocumentMoniker": "WriteErasee\\ViewModels\\EditOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\EditOrderViewModel.cs",
+              "RelativeToolTip": "WriteErasee\\ViewModels\\EditOrderViewModel.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:58:43.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "WriteErasee\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "WriteErasee\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:09:41.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\OrderUserViewModel.cs",
+              "RelativeDocumentMoniker": "WriteErasee\\ViewModels\\OrderUserViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\OrderUserViewModel.cs",
+              "RelativeToolTip": "WriteErasee\\ViewModels\\OrderUserViewModel.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAswIYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:58:25.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderUser.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\OrderUser.axaml",
+              "RelativeDocumentMoniker": "WriteErasee\\Views\\OrderUser.axaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\OrderUser.axaml",
+              "RelativeToolTip": "WriteErasee\\Views\\OrderUser.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-14T15:58:58.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\ShowViewModel.cs",
+              "RelativeDocumentMoniker": "WriteErasee\\ViewModels\\ShowViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\ShowViewModel.cs",
+              "RelativeToolTip": "WriteErasee\\ViewModels\\ShowViewModel.cs",
+              "ViewState": "AQIAAAoBAAAAAAAAAAAQwCQBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:50:55.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Show.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\Show.axaml",
+              "RelativeDocumentMoniker": "WriteErasee\\Views\\Show.axaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\Show.axaml",
+              "RelativeToolTip": "WriteErasee\\Views\\Show.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-14T15:50:03.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorizationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeDocumentMoniker": "WriteErasee\\ViewModels\\AuthorizationViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeToolTip": "WriteErasee\\ViewModels\\AuthorizationViewModel.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAowKgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:41:30.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Authorization.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\Authorization.axaml",
+              "RelativeDocumentMoniker": "WriteErasee\\Views\\Authorization.axaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\Authorization.axaml",
+              "RelativeToolTip": "WriteErasee\\Views\\Authorization.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-14T15:41:36.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "WriteErasee\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "WriteErasee\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-14T15:09:48.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_43pKasatkina2upContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Models\\_43pKasatkina2upContext.cs",
+              "RelativeDocumentMoniker": "WriteErasee\\Models\\_43pKasatkina2upContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0423\u041F_\u041A\u0430\u0441\u0430\u0442\u043A\u0438\u043D\u0430\\WriteErasee\\WriteErasee\\Models\\_43pKasatkina2upContext.cs",
+              "RelativeToolTip": "WriteErasee\\Models\\_43pKasatkina2upContext.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvyIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:07:41.527Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

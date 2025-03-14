@@ -1,0 +1,80 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="WriteErasee.ListOrders"
+			 xmlns:vm="using:WriteErasee.ViewModels"
+             x:DataType="vm:ListOrdersViewModel">
+
+
+	<Grid Background="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Text="Заказы клиентов"
+                   Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="rgb(73, 140, 81)"
+                   FontFamily="Comic Sans MS"
+                   Margin="20"/>
+
+		<Button Content="Назад"
+                Command="{Binding Exit}"
+                Background="rgb(73, 140, 81)"
+                Foreground="White"
+                HorizontalAlignment="Center"
+                Width="150"
+                Margin="0,60,0,20"
+                FontSize="16"
+                FontWeight="Bold"
+                FontFamily="Comic Sans MS"
+                BorderThickness="0"
+                CornerRadius="10"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"/>
+		
+		<StackPanel Grid.Row="1" Orientation="Horizontal"
+					HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10">
+			<ComboBox HorizontalAlignment="Center" Margin="10"
+                      ItemsSource="{Binding ListSortedType}"
+                      SelectedIndex="{Binding SelectedSortedType}"/>
+			<ComboBox HorizontalAlignment="Center" Margin="10"
+					  ItemsSource="{Binding ListFilterType}"
+					  SelectedIndex="{Binding SelectedFilterType}"/>
+		</StackPanel>
+
+		<ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+			<ListBox ItemsSource="{Binding OrdersPreview}" SelectedItem="{Binding SelectedOrder}"
+					 Background="White" HorizontalAlignment="Stretch" Padding="10" Margin="0,30,0,0">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Border BorderThickness="2" BorderBrush="Black" Background="{Binding Color}" CornerRadius="10" Padding="15" Margin="10">
+							<StackPanel Grid.Column="1" Margin="10">							
+								<TextBlock FontFamily="Comic Sans MS" FontSize="18" FontWeight="Bold" Margin="0,5"
+										   Text="{Binding Id, StringFormat='Заказ #{0}'}"/>
+								<TextBlock FontFamily="Comic Sans MS" FontSize="18" Margin="0,5"
+										   Text="{Binding FIO}"/>
+								<TextBlock FontFamily="Comic Sans MS" FontSize="14" Margin="0,5"
+									   Text="{Binding DateOrder, StringFormat='Дата заказа: {0}'}"/>
+								<TextBlock FontFamily="Comic Sans MS" FontSize="14" Margin="0,5"
+									   Text="{Binding DateDelivery, StringFormat='Дата доставки: {0}', TargetNullValue='Дата доставки неизвестна'}"/>
+								<TextBlock FontFamily="Comic Sans MS" FontSize="14" Margin="0,5"
+										   Text="{Binding IdPickUpPointNavigation.Address, StringFormat='Пункт выдачи: {0}'}"/>
+								<TextBlock FontFamily="Comic Sans MS" FontSize="14" Margin="0,5"
+									   Text="{Binding Code, StringFormat='Код получения: {0}'}"/>
+								<TextBlock FontFamily="Comic Sans MS" FontSize="14" Margin="0,5"
+										   Text="{Binding IdStatusNavigation.Name, StringFormat='Статус: {0}'}"/>
+							</StackPanel>
+						</Border>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+		</ScrollViewer>
+	</Grid>
+</UserControl>

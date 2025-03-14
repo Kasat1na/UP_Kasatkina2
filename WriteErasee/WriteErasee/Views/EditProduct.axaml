@@ -1,0 +1,111 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="WriteErasee.EditProduct"
+			 xmlns:vm="using:WriteErasee.ViewModels"
+             xmlns:conv="using:WriteErasee.Converter"
+             x:DataType="vm:EditProductViewModel">
+
+	<Grid Background="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Text="{Binding Title}"
+                   Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="rgb(73, 140, 81)"
+                   FontFamily="Comic Sans MS"
+                   Margin="20"/>
+
+		<Button Content="Назад"
+                Command="{Binding Exit}"
+                Background="rgb(73, 140, 81)"
+                Foreground="White"
+                HorizontalAlignment="Center"
+                Width="150"
+                Margin="0,60,0,20"
+                FontSize="16"
+                FontWeight="Bold"
+                FontFamily="Comic Sans MS"
+                BorderThickness="0"
+                CornerRadius="10"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"/>
+		
+		<ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+			<Grid ColumnDefinitions="auto, *" RowDefinitions="auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto" Margin="10">
+				<TextBlock Grid.Row="0" Grid.Column="0" Text="Артикл:" IsVisible="{Binding IsNewProduct}"
+						   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Product.ArticleNumber}" IsVisible="{Binding IsNewProduct}"
+						 Watermark="Арктикл товара" Margin="5"/>
+
+				<TextBlock Grid.Row="1" Grid.Column="0" Text="Наименование:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Product.Name}" Watermark="Название товара" Margin="5"/>
+
+				<TextBlock Grid.Row="2" Grid.Column="0" Text="Стоимость:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<NumericUpDown Grid.Row="2" Grid.Column="1" Value="{Binding Product.Cost}" Increment="1" Minimum="0" Margin="5" Watermark="0 руб."/>
+
+				<TextBlock Grid.Row="3" Grid.Column="0" Text="Текущая скидка:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<NumericUpDown Grid.Row="3" Grid.Column="1" Value="{Binding Product.CurrentDiscount}" Increment="1" Minimum="0" Margin="5" Watermark="0 %"/>
+
+				<TextBlock Grid.Row="4" Grid.Column="0" Text="Максимальная скидка:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<NumericUpDown Grid.Row="4" Grid.Column="1" Value="{Binding Product.MaxDiscountAmount}" Increment="1" Minimum="0" Margin="5" Watermark="0 %"/>
+
+				<TextBlock Grid.Row="5" Grid.Column="0" Text="Количество:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal">
+					<NumericUpDown Value="{Binding Product.QuantityInStock}" Increment="1" Minimum="0" Margin="5"/>
+					<ComboBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Units}"
+											  SelectedItem="{Binding Product.IdUnitNavigation}" HorizontalAlignment="Stretch" Margin="5">
+						<ComboBox.ItemTemplate>
+							<DataTemplate>
+								<TextBlock Text="{Binding Name}"/>
+							</DataTemplate>
+						</ComboBox.ItemTemplate>
+					</ComboBox>
+				</StackPanel>
+
+				<TextBlock Grid.Row="6" Grid.Column="0" Text="Категория:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<ComboBox Grid.Row="6" Grid.Column="1" ItemsSource="{Binding Categories}"
+						  SelectedItem="{Binding Product.IdCategoryNavigation}" HorizontalAlignment="Stretch" Margin="5">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding Name}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+
+				<TextBlock Grid.Row="7" Grid.Column="0" Text="Производитель:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<ComboBox Grid.Row="7" Grid.Column="1" ItemsSource="{Binding Manufacturers}"
+						  SelectedItem="{Binding Product.IdManufacturerNavigation}" HorizontalAlignment="Stretch" Margin="5">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding Name}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+
+				<TextBlock Grid.Row="8" Grid.Column="0" Text="Поставщик:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<ComboBox Grid.Row="8" Grid.Column="1" ItemsSource="{Binding Suppliers}"
+						  SelectedItem="{Binding Product.IdSupplierNavigation}" HorizontalAlignment="Stretch" Margin="5">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding Name}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+
+				<TextBlock Grid.Row="9" Grid.Column="0" Text="Описание:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"/>
+				<TextBox Grid.Row="9" Grid.Column="1" Text="{Binding Product.Description}" TextWrapping="Wrap" Margin="5"/>
+
+				<Button Grid.Row="10" Grid.ColumnSpan="2" Content="Сохранить" Command="{Binding Save}" HorizontalAlignment="Center" Margin="10"/>
+			</Grid>
+		</ScrollViewer>
+	</Grid>
+
+</UserControl>

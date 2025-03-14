@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteEraseLibrary", "WriteEraseLibrary\WriteEraseLibrary.csproj", "{B3B89C35-BE9B-4BE7-B139-E9078FBA5361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{557CF897-8109-4FB0-A8B6-6B9A8B629A1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B89C35-BE9B-4BE7-B139-E9078FBA5361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B89C35-BE9B-4BE7-B139-E9078FBA5361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B89C35-BE9B-4BE7-B139-E9078FBA5361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B89C35-BE9B-4BE7-B139-E9078FBA5361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557CF897-8109-4FB0-A8B6-6B9A8B629A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557CF897-8109-4FB0-A8B6-6B9A8B629A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557CF897-8109-4FB0-A8B6-6B9A8B629A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557CF897-8109-4FB0-A8B6-6B9A8B629A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24468AF1-3924-4791-BB43-0CC0780BDF8A}
+	EndGlobalSection
+EndGlobal
